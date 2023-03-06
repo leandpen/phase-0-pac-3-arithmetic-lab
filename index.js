@@ -30,36 +30,42 @@ function makeInt(a){ //Parse a as an integer and return that integer.
 function preserveDecimal(a){ //Parse a as a float (number with decimals) and return that number.
   number = parseFloat(a, 10);
   return number;
-}var number;
-function add(a, b){ //add a and b and return the result.
-  number = a + b;
-  return number;
 }
-function subtract(a, b){ //subtract a and b and return the result.
-  number = a - b;
-  return number;
-}
-function multiply(a, b){ //multiply a and b and return the result.
-  number = a * b;
-  return number;
-}
-function divide(a, b){ //divide a and b and return the result.
-  number = a / b;
-  return number;
-}
-function inc(a){ //Increment a by 1 and return the result.
-  number = a + 1;
-  return number;
-}
-function dec(a){ //Decrement a by 1 and return the result.
-  number = a - 1;
-  return number;
-}
-function makeInt(a){ //Parse a as an integer and return that integer.
-  number = parseInt(a, 10);
-  return number;
-}
-function preserveDecimal(a){ //Parse a as a float (number with decimals) and return that number.
-  number = parseFloat(a, 10);
-  return number;
-}
+
+function increment(){
+    var n = 0;
+    n++;
+    return n;
+  }
+  var i = 0;
+
+  function increment(n){
+  
+    n++;
+    return n;
+  }
+  
+  i=increment(i);
+
+  
+
+
+
+  function decrement(){
+    var n = 0;
+    n--;
+    return n;
+  }
+  var d = 0;
+
+  function decrement(n){
+  
+    n--;
+    return n;
+  }
+  
+  d=decrement(d);
+
+  
+
+
